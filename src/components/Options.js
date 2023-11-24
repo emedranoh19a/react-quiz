@@ -1,7 +1,5 @@
 export default function Options({ options, dispatch, answer, userAnswer }) {
   const userHasAnswered = userAnswer !== null;
-  console.log("user answer: ");
-  console.log(userHasAnswered);
   return (
     <div className="options">
       {options.map((option, index) => (

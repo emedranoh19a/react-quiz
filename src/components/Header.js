@@ -1,3 +1,5 @@
+import { useQuiz } from "../context/QuizContext";
+
 function Header() {
   return (
     <header className="app-header">

@@ -85,7 +85,7 @@ function QuizProvider({ children }) {
     //   .catch(() => {
     //     dispatch({ type: "dataFailed" });
     //   });
-  }, []);
+  }, [questions]);
 
   return (
     <QuizContext.Provider

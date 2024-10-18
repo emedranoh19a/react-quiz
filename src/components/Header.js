@@ -1,4 +1,3 @@
-import { useQuiz } from "../context/QuizContext";
 
 function Header() {
   return (
